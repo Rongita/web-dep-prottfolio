@@ -84,6 +84,13 @@ nav li a{
     background-color: #474747;
 }
 
+/* CV Button*/
+.text-center, .resume-downloed-cv{
+    margin-top: 50px;
+   
+}
+ 
+
 /* banner style */
 .banner-greetings{
     font-weight: 600;
@@ -105,4 +112,91 @@ nav li a{
     border-bottom: 1px solid gray;
     opacity: 0.5;
 }
+ /*main section*/
+ .section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+ }
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.scondry-bg{
+    background-color: #FFF8F3;
+}
+/* About styles */
+.about{
+    border-radius: 10px;
+    padding: 131px 150px;
+    text-align: center;
+   
+}
+/*main styles*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
+main section{
+     margin-top: 130px;
+     margin-bottom: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item-description{
+    font-weight: 600;
+}
+.text-center{
+    text-align: center;
+}
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0, 0, 0.06);
+}
+/*resume colum style*/
+.rusme-container{
+    display: flex;
+    gap: 24px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.exprience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.exprience-description, .exprience-sub-title{
+    color: #474747;
+}
+
+/*Footer styles*/
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-colum{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
